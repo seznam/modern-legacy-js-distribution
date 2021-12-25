@@ -1,0 +1,10 @@
+[modern]
+# Modern browsers
+chrome > 85
+firefox > 85
+opera > 75
+safari > 14
+
+[legacy]
+# See browserslist for details: https://github.com/browserslist/browserslist#best-practices
+defaults
