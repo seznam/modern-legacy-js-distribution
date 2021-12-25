@@ -2,13 +2,11 @@ const path = require("path");
 const fs = require("fs");
 
 const POLYFILL_FILE_EXTENSION = ".polyfills.js";
-const staticRoot = path.join(__dirname, "../");
 const polyfillRoot = path.resolve(__dirname, "../src/polyfills/");
 
 const getPolyfills = (fileName) => {
   const polyfillFileName = fileName + POLYFILL_FILE_EXTENSION;
-  const pathToPolyfill =
-    "./" + path.relative(staticRoot, path.join(polyfillRoot, polyfillFileName));
+  const pathToPolyfill = path.join(polyfillRoot, polyfillFileName);
 
   if (fs.existsSync(pathToPolyfill)) {
     return pathToPolyfill;
