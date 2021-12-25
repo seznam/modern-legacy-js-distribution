@@ -4,8 +4,8 @@ This repository solves the problem of writing modern JavaScript, while still sup
 
 The core technologies used are:
 
- - Webpack
- - Babel
- - Core-js
- - Nginx
- - Docker
+- Webpack
+- Babel
+- Core-js
+- Nginx
+- Docker
