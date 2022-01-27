@@ -49,7 +49,6 @@ const legacyConfig = {
     path: path.resolve(__dirname, "./dist/legacy/js"),
     filename: "[name].js",
   },
-  ...commonConfig,
 };
 
 const modernConfig = {
